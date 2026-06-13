@@ -7,15 +7,28 @@ COLOR_SEQUENCE = ["#1f6feb", "#0f766e", "#f59e0b", "#dc2626", "#7c3aed", "#0891b
 def apply_chart_theme(fig):
     fig.update_layout(
         template="plotly_white",
-        paper_bgcolor="rgba(255,255,255,0)",
+        paper_bgcolor="#ffffff",
         plot_bgcolor="#ffffff",
-        font={"family": "Arial, sans-serif", "color": "#172033"},
-        title={"font": {"size": 19, "color": "#172033"}, "x": 0, "xanchor": "left", "y": 0.98, "yanchor": "top"},
-        legend={"orientation": "h", "yanchor": "bottom", "y": 1.10, "xanchor": "left", "x": 0},
+        font={"family": "Arial, sans-serif", "color": "#111111"},
+        title={"font": {"size": 19, "color": "#111111"}, "x": 0, "xanchor": "left", "y": 0.98, "yanchor": "top"},
+        legend={"orientation": "h", "yanchor": "bottom", "y": 1.10, "xanchor": "left", "x": 0, "font": {"color": "#111111"}},
+        hoverlabel={"bgcolor": "#ffffff", "font": {"color": "#111111"}, "bordercolor": "#d8e0ea"},
         margin={"l": 24, "r": 24, "t": 115, "b": 38},
     )
-    fig.update_xaxes(showgrid=True, gridcolor="#eef2f7", linecolor="#d8e0ea")
-    fig.update_yaxes(showgrid=True, gridcolor="#eef2f7", linecolor="#d8e0ea")
+    fig.update_xaxes(
+        showgrid=True,
+        gridcolor="#eef2f7",
+        linecolor="#d8e0ea",
+        tickfont={"color": "#111111"},
+        title_font={"color": "#111111"},
+    )
+    fig.update_yaxes(
+        showgrid=True,
+        gridcolor="#eef2f7",
+        linecolor="#d8e0ea",
+        tickfont={"color": "#111111"},
+        title_font={"color": "#111111"},
+    )
     return fig
 
 

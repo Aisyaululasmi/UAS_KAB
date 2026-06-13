@@ -252,8 +252,9 @@ def apply_light_theme() -> None:
 
         button[kind="primary"],
         button[kind="primary"] * {
-            background-color: #1f6feb !important;
-            color: #ffffff !important;
+            background-color: #ffffff !important;
+            color: #111111 !important;
+            border-color: #1f6feb !important;
         }
 
         div[data-testid="stImage"] img {
@@ -264,18 +265,11 @@ def apply_light_theme() -> None:
         }
 
         div[data-testid="stPlotlyChart"],
-        div[data-testid="stPlotlyChart"] *,
         .js-plotly-plot,
-        .plotly,
         .plot-container,
-        .svg-container,
-        .main-svg {
+        .svg-container {
             background: #ffffff !important;
             color: #111111 !important;
-        }
-
-        .js-plotly-plot text {
-            fill: #111111 !important;
         }
 
         .stAlert {
@@ -337,14 +331,28 @@ def first_existing_path(*paths: Path) -> Path:
 def style_plotly(fig):
     fig.update_layout(
         template="plotly_white",
-        paper_bgcolor="rgba(255,255,255,0)",
+        paper_bgcolor="#ffffff",
         plot_bgcolor="#ffffff",
-        font={"family": "Arial, sans-serif", "color": "#172033"},
-        title={"font": {"size": 20, "color": "#172033"}},
+        font={"family": "Arial, sans-serif", "color": "#111111"},
+        title={"font": {"size": 20, "color": "#111111"}},
+        legend={"font": {"color": "#111111"}},
+        hoverlabel={"bgcolor": "#ffffff", "font": {"color": "#111111"}, "bordercolor": "#d8e0ea"},
         margin={"l": 24, "r": 24, "t": 70, "b": 38},
     )
-    fig.update_xaxes(showgrid=True, gridcolor="#eef2f7", linecolor="#d8e0ea")
-    fig.update_yaxes(showgrid=True, gridcolor="#eef2f7", linecolor="#d8e0ea")
+    fig.update_xaxes(
+        showgrid=True,
+        gridcolor="#eef2f7",
+        linecolor="#d8e0ea",
+        tickfont={"color": "#111111"},
+        title_font={"color": "#111111"},
+    )
+    fig.update_yaxes(
+        showgrid=True,
+        gridcolor="#eef2f7",
+        linecolor="#d8e0ea",
+        tickfont={"color": "#111111"},
+        title_font={"color": "#111111"},
+    )
     return fig
 
 
