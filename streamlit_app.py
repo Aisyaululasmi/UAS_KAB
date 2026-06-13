@@ -182,6 +182,23 @@ def apply_light_theme() -> None:
             color: #111111 !important;
         }
 
+        div[data-testid="stDataFrame"] *,
+        div[data-testid="stDataFrame"] [role="grid"],
+        div[data-testid="stDataFrame"] [role="row"],
+        div[data-testid="stDataFrame"] [role="gridcell"],
+        div[data-testid="stDataFrame"] [role="columnheader"] {
+            background-color: #ffffff !important;
+            color: #111111 !important;
+            border-color: #e6ebf2 !important;
+        }
+
+        div[data-testid="stDataFrame"] [role="columnheader"],
+        div[data-testid="stDataFrame"] [data-testid="stDataFrameResizable"] {
+            background-color: #eef6ff !important;
+            color: #111111 !important;
+            font-weight: 700 !important;
+        }
+
         [data-testid="stTable"] {
             background: #ffffff !important;
             color: #111111 !important;
@@ -212,6 +229,31 @@ def apply_light_theme() -> None:
         [data-testid="stNotification"] * {
             background-color: #ffffff !important;
             color: #111111 !important;
+        }
+
+        button,
+        button *,
+        input,
+        textarea,
+        [data-baseweb="input"],
+        [data-baseweb="textarea"],
+        [data-baseweb="button"],
+        [data-baseweb="menu"],
+        [data-baseweb="menu"] *,
+        [data-baseweb="popover"] *,
+        [role="listbox"],
+        [role="listbox"] *,
+        [role="option"],
+        [role="option"] * {
+            background-color: #ffffff !important;
+            color: #111111 !important;
+            border-color: #d8e0ea !important;
+        }
+
+        button[kind="primary"],
+        button[kind="primary"] * {
+            background-color: #1f6feb !important;
+            color: #ffffff !important;
         }
 
         div[data-testid="stImage"] img {
