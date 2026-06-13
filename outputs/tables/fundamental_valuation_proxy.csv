@@ -1,0 +1,11 @@
+ticker,sector,quality_proxy_score,valuation_risk_proxy,model_probability_positive,fundamental_valuation_proxy_score,interpretation
+MCO,Financial Services,0.74,0.23284789578769788,0.9125125008975264,0.7840057366538111,Kuantitatif proxy; bukan data fundamental asli dari laporan keuangan.
+AAPL,Technology,0.82,0.5817816320481339,0.9807480219727996,0.711526033177713,Kuantitatif proxy; bukan data fundamental asli dari laporan keuangan.
+CB,Insurance,0.76,0.43814384949709895,0.8332670412465305,0.7053030609253215,Kuantitatif proxy; bukan data fundamental asli dari laporan keuangan.
+KHC,Consumer Staples,0.7,0.4414660431438253,0.9063625285752596,0.691759390614713,Kuantitatif proxy; bukan data fundamental asli dari laporan keuangan.
+GOOGL,Communication Services,0.78,0.6928201025561715,0.9469890699637464,0.6479107780980893,Kuantitatif proxy; bukan data fundamental asli dari laporan keuangan.
+AXP,Financial Services,0.74,0.27354901780424257,0.2871605415148252,0.6446899520714802,Kuantitatif proxy; bukan data fundamental asli dari laporan keuangan.
+BAC,Financial Services,0.74,0.5209838932278285,0.2517238924417508,0.5510004158586103,Kuantitatif proxy; bukan data fundamental asli dari laporan keuangan.
+KO,Consumer Staples,0.7,0.4797790630289081,0.1772456661929483,0.5325264611784718,Kuantitatif proxy; bukan data fundamental asli dari laporan keuangan.
+CVX,Energy,0.58,0.5766119036956373,0.092928393975349,0.42777151250159673,Kuantitatif proxy; bukan data fundamental asli dari laporan keuangan.
+OXY,Energy,0.58,0.8225253596157664,0.0432843047856003,0.3317729850916018,Kuantitatif proxy; bukan data fundamental asli dari laporan keuangan.

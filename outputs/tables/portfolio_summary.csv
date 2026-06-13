@@ -1,0 +1,3 @@
+scenario,total_capital_idr,expected_portfolio_return_6m,expected_excess_return_6m,projected_profit_idr,selected_tickers
+balanced_risk_aware,1000000000000.0,0.0995473393087555,0.07135690543622045,99547339308.75552,"MCO, AAPL, GOOGL, CB, KHC"
+aggressive_risk_aware,999999999999.9999,0.09971720098797293,0.07152676711543784,99717200987.97293,"MCO, AAPL, GOOGL, CB, KHC"

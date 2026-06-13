@@ -1,0 +1,4 @@
+strategy,expected_return_6m,expected_excess_vs_equal_weight_universe,notes
+Risk-aware selected portfolio,0.0995473393087555,0.07135690543622045,"Bobot mengikuti allocation score, risiko, dan cap portofolio."
+Equal-weight all 10 candidates,0.028190433872535066,0.0,Benchmark internal karena tidak memakai data SPY eksternal.
+Equal-weight top 5 by ranking score,0.09004724896506712,0.061856815092532054,Baseline sederhana tanpa optimasi bobot.

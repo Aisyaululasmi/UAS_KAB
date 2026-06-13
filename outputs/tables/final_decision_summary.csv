@@ -1,0 +1,6 @@
+ticker,final_action,portfolio_role,final_weight,expected_return_6m,confidence_level,key_risk,net_portfolio_return_after_mid_cost,decision_note
+MCO,BUY,Return driver,0.25,0.1630072638904232,High,Rate sensitivity and model timing risk,0.09554733930875549,Dipertahankan sebagai rekomendasi tugas; perlu monitoring jika diterapkan nyata.
+KHC,HOLD,Tactical opportunity,0.2019306022103041,0.1095868306554639,High,Weak historical validation and drawdown risk,0.09554733930875549,Dipertahankan sebagai rekomendasi tugas; perlu monitoring jika diterapkan nyata.
+AAPL,BUY,Core growth,0.1972180110384472,0.0828448046532597,High,Growth valuation risk,0.09554733930875549,Dipertahankan sebagai rekomendasi tugas; perlu monitoring jika diterapkan nyata.
+CB,BUY,Risk stabilizer,0.1842983472210236,0.0521781096695639,Very High,Lower upside versus other selected stocks,0.09554733930875549,Dipertahankan sebagai rekomendasi tugas; perlu monitoring jika diterapkan nyata.
+GOOGL,BUY,Core growth,0.166553039530225,0.0643144171129153,High,Growth valuation risk,0.09554733930875549,Dipertahankan sebagai rekomendasi tugas; perlu monitoring jika diterapkan nyata.

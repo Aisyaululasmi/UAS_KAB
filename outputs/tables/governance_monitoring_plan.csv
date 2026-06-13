@@ -1,0 +1,9 @@
+area,recommendation,priority
+Model refresh,Update data dan ulang pipeline minimal bulanan.,High
+Risk limit,Batasi bobot saham maksimum 25% untuk balanced dan 20% untuk conservative.,High
+Stop review,Review ulang jika drawdown portofolio melewati -12% atau saham individual melewati -20%.,High
+Benchmark,Tambahkan data SPY/QQQ/BRK-B aktual jika internet/data vendor tersedia.,Medium
+Fundamental,"Tambahkan P/E, revenue growth, margin, debt, dividend, dan earnings surprise.",Medium
+Explainability,Simpan model final dan jalankan SHAP untuk penjelasan lokal per saham.,Medium
+Execution,"Masukkan biaya transaksi, slippage, pajak, dan pembatasan likuiditas.",High
+Governance,"Dokumentasikan bahwa output adalah rekomendasi akademik, bukan keputusan otomatis.",High

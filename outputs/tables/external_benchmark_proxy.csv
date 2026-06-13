@@ -1,0 +1,5 @@
+benchmark,cumulative_return,annualized_return,annualized_volatility,sharpe_proxy,max_drawdown,notes,excess_cumulative_return_vs_selected
+Selected risk-aware portfolio,2.3535557204301574,0.15484776154063828,0.20855819502444778,0.7424678829929775,-0.34634361481111997,Portofolio final hasil model.,0.0
+SPY proxy - equal weight 10 candidates,2.11979847183841,0.14496249212241885,0.21620040460849485,0.6705005588908276,-0.43886798832767404,Proxy pasar luas karena data SPY eksternal tidak tersedia offline.,-0.2337572485917474
+QQQ proxy - AAPL/GOOGL growth basket,6.852444996878369,0.27787341605494253,0.2753941630827371,1.009002561798888,-0.3577278637827723,Proxy growth/technology dari kandidat lokal.,4.498889276448212
+BRK-B proxy - Berkshire-style basket,3.46327256893524,0.19480181348479553,0.22585691121938667,0.8625010075320401,-0.40177470058837894,Proxy gaya Berkshire dari kandidat lokal.,1.1097168485050828
