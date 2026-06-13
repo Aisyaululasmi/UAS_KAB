@@ -263,6 +263,21 @@ def apply_light_theme() -> None:
             background: #ffffff !important;
         }
 
+        div[data-testid="stPlotlyChart"],
+        div[data-testid="stPlotlyChart"] *,
+        .js-plotly-plot,
+        .plotly,
+        .plot-container,
+        .svg-container,
+        .main-svg {
+            background: #ffffff !important;
+            color: #111111 !important;
+        }
+
+        .js-plotly-plot text {
+            fill: #111111 !important;
+        }
+
         .stAlert {
             border-radius: 8px;
         }
